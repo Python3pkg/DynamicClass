@@ -2,6 +2,8 @@
 
 Class to create attributes dynamically from class object
 
+Installation : pip install DynamicClass
+
 ```python
 class DynamicClass():
     def __getattr__(self, item):
