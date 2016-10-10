@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='DynamicClass',
-    version='1',
-    packages=[''],
+    version='1.1',
+    packages=['dynamicclass'],
     url='https://github.com/rodrigorodriguescosta/DynamicClass',
     license='',
     author='Rodrigo Rodrigues',
