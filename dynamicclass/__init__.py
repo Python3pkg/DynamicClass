@@ -13,7 +13,7 @@ class DynamicClass():
 
     def __init__(self, **kwargs):
 
-        for key, value in kwargs.items():
+        for key, value in list(kwargs.items()):
             if isinstance(value, dict):
                 value = DynamicClass(**value)
             elif isinstance(value, list):
